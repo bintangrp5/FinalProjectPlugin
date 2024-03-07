@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-yellow-500">
+    <div class="text-black font-semibold text-2xl text-center my-6">POKEMON</div>
+    <div id="listPokemon" class="mt-11 grid grid-cols-1 md:grid-cols-3 md:px-16 lg:grid-cols-4 lg:w-9/12 lg:mx-auto lg:px-0 gap-6 px-5">
+        <template id="data">
+            <div class="p-2 mx-3 hover:z-10 md:hover:-translate-y-0 lg:hover:scale-105 transition-all ease-in-out flex justify-center items-center flex-col border bg-white rounded-md shadow-md mb-4">
+            <img src="" alt="" class="w-100 h-82">
+            <p class="font-bold text-lg mb-2"></p>
+            <h2 class="font-medium text-center text-lg mb-2">Ability : <span id="ability"></span></h2>
+            <h3 class="font-medium text-center text-lg mb-2">Types : <span id="tipe"></span></h3>
+            
+            </div>
+        </template>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
